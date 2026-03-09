@@ -1,5 +1,3 @@
-// lib/register_form_page.dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -174,17 +172,16 @@ class _RegistrationPageState extends State<RegisterFormPage> {
                 return null;
               },
             ),
-
             const SizedBox(height: 20),
-
-            SizedBox(
-              height: 50,
-              child: ElevatedButton(
-                onPressed: _submitForm,
-                child: const Text("Register"),
+            ElevatedButton(
+              onPressed: _submitForm,
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green,
+                minimumSize: const Size(double.infinity, 50),
+                shape: LinearBorder(),
               ),
+              child: const Text("Submit Form", style: TextStyle(fontSize: 18, color: Colors.white)),
             ),
-
           ],
         ),
       ),
