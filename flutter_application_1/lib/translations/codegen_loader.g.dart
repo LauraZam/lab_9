@@ -15,16 +15,46 @@ class CodegenLoader extends AssetLoader{
   }
 
   static const Map<String,dynamic> _en = {
-  "hello_text": "Hello",
-  "edited": "Edited"
+  "registration": "Registration",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "password": "Password",
+  "register": "Register",
+  "success": "Registration successful",
+  "enter_name": "Please enter your name",
+  "enter_email": "Enter a valid email",
+  "enter_phone": "Enter a valid phone number",
+  "password_error": "Password must be at least 6 characters",
+  "required": "Required field"
 };
 static const Map<String,dynamic> _kk = {
-  "hello_text": "Салем",
-  "edited": "Өңделді"
+  "registration": "Тіркелу",
+  "name": "Аты",
+  "email": "Email",
+  "phone": "Телефон",
+  "password": "Құпия сөз",
+  "register": "Тіркелу",
+  "success": "Тіркеу сәтті аяқталды",
+  "enter_name": "Атыңызды енгізіңіз",
+  "enter_email": "Дұрыс email енгізіңіз",
+  "enter_phone": "Дұрыс телефон нөмірін енгізіңіз",
+  "password_error": "Құпия сөз кемінде 6 таңбадан тұруы керек",
+  "required": "Міндетті өріс"
 };
 static const Map<String,dynamic> _ru = {
-  "hello_text": "Привет",
-  "edited": "Отредактировано"
+  "registration": "Регистрация",
+  "name": "Имя",
+  "email": "Email",
+  "phone": "Телефон",
+  "password": "Пароль",
+  "register": "Зарегистрироваться",
+  "success": "Регистрация прошла успешно",
+  "enter_name": "Введите имя",
+  "enter_email": "Введите корректный email",
+  "enter_phone": "Введите корректный номер",
+  "password_error": "Пароль должен содержать минимум 6 символов",
+  "required": "Обязательное поле"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"en": _en, "kk": _kk, "ru": _ru};
 }

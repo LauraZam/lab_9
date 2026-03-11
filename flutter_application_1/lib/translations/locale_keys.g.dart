@@ -1,30 +1,19 @@
 // DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
 
-// ignore_for_file: prefer_single_quotes, avoid_renaming_method_parameters, constant_identifier_names
+// ignore_for_file: constant_identifier_names
 
-import 'dart:ui';
+abstract class  LocaleKeys {
+  static const registration = 'registration';
+  static const name = 'name';
+  static const email = 'email';
+  static const phone = 'phone';
+  static const password = 'password';
+  static const register = 'register';
+  static const success = 'success';
+  static const enter_name = 'enter_name';
+  static const enter_email = 'enter_email';
+  static const enter_phone = 'enter_phone';
+  static const password_error = 'password_error';
+  static const required = 'required';
 
-import 'package:easy_localization/easy_localization.dart' show AssetLoader;
-
-class CodegenLoader extends AssetLoader{
-  const CodegenLoader();
-
-  @override
-  Future<Map<String, dynamic>?> load(String path, Locale locale) {
-    return Future.value(mapLocales[locale.toString()]);
-  }
-
-  static const Map<String,dynamic> _en = {
-  "hello_text": "Hello",
-  "edited": "Edited"
-};
-static const Map<String,dynamic> _kk = {
-  "hello_text": "Салем",
-  "edited": "Өңделді"
-};
-static const Map<String,dynamic> _ru = {
-  "hello_text": "Привет",
-  "edited": "Отредактировано"
-};
-static const Map<String, Map<String,dynamic>> mapLocales = {"en": _en, "kk": _kk, "ru": _ru};
 }
